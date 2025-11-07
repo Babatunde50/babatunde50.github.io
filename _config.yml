@@ -24,13 +24,13 @@ repository               : "github.com/babatunde50/babatunde50.github.io" # the 
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Ololade Babatunde"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Research Assistant at PARS (Parallel Systems) Group, İzmir Institute of Technology. My work explores GPU-accelerated computing, parallel systems, and scalable deep learning frameworks."
+  location         : "Izmir, Turkey"
+  employer         : "Izmir Institute of Technology"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "ololadebabatunde@iyte.edu.tr" 
 
   # Academic websites
   academia         : # URL
