@@ -40,13 +40,63 @@ author:
 
 
 # Publication Category - The following the list of publication categories and their headings
+# Publication Category
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+    title: 'Peer-Reviewed Journal Articles'
+    papers:
+      - title: "AI-Enhanced Differentiated Learning in Elementary STEM: Promoting Mental Health, Psychological Resilience and Equity"
+        authors: "Ololade Owolabi Babatunde, Oluwakemi Mary Alo, Joseph Chima Okeoma, Chinenyenwa Ihuaku Onuoha, Ridwan Olalekan Adeyemi, Eniola Christianah Ajila"
+        journal: "World Journal of Advanced Research and Reviews"
+        year: 2025
+        volume: 28
+        number: 1
+        pages: "888–899"
+        doi: "10.30574/wjarr.2025.28.1.3442"
+        url: "https://doi.org/10.30574/wjarr.2025.28.1.3442"
+        note: "Accepted: 10 Oct 2025"
+
+      - title: "Collaborative Intelligence Databases (CID): Harnessing AI for Privacy-Preserving Multi-Source Data Management"
+        authors: "Olawale Akadiri, Ololade Babatunde, Adam Adebayo Jamiu, Olamotse Roland Igbape, Bibilari Oladipupo Samson, Chinonso Francis Anyaehie"
+        journal: "Global Journal of Engineering and Technology Advances"
+        year: 2025
+        volume: 24
+        number: 3
+        pages: "406–416"
+        doi: "10.30574/gjeta.2025.24.3.0289"
+        url: "https://doi.org/10.30574/gjeta.2025.24.3.0289"
+        note: "Accepted: 26 Sep 2025"
+
+      - title: "Resilient Dataflow Intelligence (RDI): A Proactive AI Framework for Anomaly Anticipation in Cloud Databases"
+        authors: "Olamotse Roland Igbape, Oluwatoyin Olawale Akadiri, Chijioke Cyriacus Ekechi, Richards Obada Okiemute, Ololade Babatunde, Moyinoluwa Emmanuel Idowu"
+        journal: "Global Journal of Engineering and Technology Advances"
+        year: 2025
+        volume: 24
+        number: 3
+        pages: "314–327"
+        doi: "10.30574/gjeta.2025.24.3.0282"
+        url: "https://doi.org/10.30574/gjeta.2025.24.3.0282"
+        note: "Accepted: 22 Sep 2025"
+
+  under_review:
+    title: 'Under Review'
+    papers:
+      - title: "Human Anomalous Activity Detection System Based on Infrared Grid Sensor"
+        authors: "Ololade Babatunde, Raqibul Hasan"
+        journal: "Machine Vision and Applications"
+        year: 2025
+        note: "Under review"
+
+  preprints:
+    title: 'Preprints'
+    papers:
+      - title: "Improving Assignment Submission in Higher Education through a Git-Enabled System: An Iterative Case Study"
+        authors: "Ololade Babatunde, Tomisin Ayodabo, Raqibul Hasan"
+        year: 2025
+        doi: "10.48550/arXiv.2510.06363"
+        url: "https://arxiv.org/abs/2510.06363"
+        note: "Preprint"
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
