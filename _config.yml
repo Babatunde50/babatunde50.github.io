@@ -99,42 +99,52 @@ publication_category:
 
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+# These add polish and personality without breaking the theme
+teaser: "profile.png"    # default social preview image (in /images/)
+breadcrumbs: true        # enables top-of-page breadcrumb trail
+words_per_minute: 180    # slightly faster reading speed estimate
+future: true
+read_more: "enabled"     # adds graceful "Read more →" links on summaries
+talkmap_link: true       # shows talk map link if you later add talks
+show_excerpts: true      # enables article excerpts on lists
+
+# Comment system - staticman gives quiet, local feedback support
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider: "staticman"
   disqus:
-    shortname            :
+    shortname:
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server:
   facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid:
+    num_posts: 3
+    colorscheme: "light"
+
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields: ['name', 'email', 'url', 'message']
+  branch: "gh-pages"
+  commitMessage: "💬 New comment received via site form."
+  filename: comment-{@timestamp}
+  format: "yml"
+  moderation: true
+  path: "_data/comments/{options.slug}"
+  requiredFields: ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email: "md5"
   generatedFields:
     date:
-      type               : "date"
+      type: "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
+        format: "iso8601"
 
+# Atom/RSS feed for readers or committees following updates
+atom_feed:
+  hide: false
+  path: "feed.xml"
+
+# Add custom favicon and theme color (nice touch for uniqueness)
+favicon: "/images/favicon.ico"
+theme_color: "#004c91"   # deep blue tone for browser accent
 
 # SEO Related
 google_site_verification :
